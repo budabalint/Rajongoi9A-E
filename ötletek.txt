@@ -1,0 +1,13 @@
+A weboldal főbb színei(max5-6):
+- #2f57a4 (kék)
+- #e61921 (piros)
+- #ffffff (Fehér)
+- #87a2a6 (háttér)
+- #cc66cc (vaaalahova biztos) 
+
+A kölönböző oldalak címei:
+- Főoldal (index.html) (carausel is itt van)
+- kvízoldal (quiz.html)
+- Névjegy oldal (nevjegy.html)
+- Elérhetőségek (elerhetosegek.html) (tablókereső) 
+- Különlegességek (kulonlegessegek.html)
