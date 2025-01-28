@@ -1,0 +1,28 @@
+body {
+    background-color: #87a2a6;
+}
+#nav-linkek {
+    list-style: none;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#navbar-div {
+    background-color: #fff;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+#cim-div {
+    padding-bottom: 20%;
+    width: 100%;
+    background-image: url(jedliksuli.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+#navbar-nav {
+    position: sticky;
+    top: 0;
+    padding: 0;
+}
