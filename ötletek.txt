@@ -11,4 +11,3 @@ A kölönböző oldalak címei:
 - Névjegy oldal (nevjegy.html)
 - Elérhetőségek (elerhetosegek.html) (tablókereső) 
 - Különlegességek (kulonlegessegek.html)
-- Jedlik game (jedlikgame.html)
