@@ -28,3 +28,62 @@ body{
     margin-top: 0;
     margin:auto;
 }
+
+.cimek {
+    background-color: #00bcd4;
+    color: white;
+    padding: 20px 40px; 
+    display: block; 
+    width: fit-content;
+    margin: 20px auto;
+    font-size: 50px; 
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 2);
+    font-family: 'Arial', sans-serif;
+    color: black;
+}
+
+.cards-bal{
+    display: block;
+    max-width: 1000px;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 2);
+    background-color: white;
+    padding: 20px 20px; 
+    border-radius: 10px;
+
+}
+
+.cards-jobb{
+    display: block;
+    max-width: 1000px;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 2);
+    background-color: white;
+    padding: 20px 20px; 
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+}
+
+.kép-bal{
+    float: left;
+    max-width: 300px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 20px;
+    height: auto;
+}
+
+.kép-jobb{
+    float: right;
+    max-width: 300px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 20px;
+    height: auto;
+}
