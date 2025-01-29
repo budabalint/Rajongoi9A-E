@@ -10,8 +10,11 @@ body {
     background-position: center;
 
 }
-#navbar-nav {
-    position: sticky;
-    top: 0;
-    padding: 0;
+.szovegdoboz {
+    background-color: white;
+    height: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 8%;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
 }
