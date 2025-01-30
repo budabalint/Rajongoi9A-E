@@ -2,13 +2,19 @@ body {
     background-color: #87a2a6;
 }
 #cim-div {
-    padding-bottom: 20%;
+    font-size: 120px;
+    color: white;
+    display: flex;
+    align-items: center;   /* Vertically centers the text */
+    justify-content: center;
+    height: 450px;
     width: 100%;
-    background-image: url(jedliksuli.png);
+    background:
+     linear-gradient(to bottom, rgba(255,0,0,0), rgb(0, 0, 0)),
+     url(jedliksuli.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
 }
 .szovegdoboz {
     background-color: white;
