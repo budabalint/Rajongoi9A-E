@@ -1,32 +1,8 @@
-body{
-    background-color:lightgray;
-    margin:0;
-}
-
-
-.navbar-li{
-    background-color: blue;
-    padding: 20px;
-    list-style-type: none;
-    color:white;
-    margin: 0;
-    display: inline-block;
-}
-
-.navbar-li:hover{
-    background-color: red;
-    color:black;
-}
-
-#navbar{
-    background-color: blue;
-    margin:auto;
-    position: sticky;
-    top:0;
-}
-#navbar-ul{
-    margin-top: 0;
-    margin:auto;
+body {
+    background-color: #87a2a6;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .cimek {
@@ -66,8 +42,7 @@ body{
     background-color: white;
     padding: 20px 20px; 
     border-radius: 10px;
-    position: absolute;
-    right: 0;
+    float: right;
 }
 
 .kép-bal{
@@ -86,4 +61,22 @@ body{
     margin-left: 0;
     margin-right: 20px;
     height: auto;
+}
+
+.szovegdoboz {
+    background-color: white;
+    height: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 8%;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+}
+
+.cards-cim{
+    margin: 20px;
+    text-align: center;
+}
+
+.clearfix {
+    clear: both;
 }
