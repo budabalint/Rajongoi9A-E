@@ -17,8 +17,21 @@ body {
     background-position: center;
 }
 .szovegdoboz {
+    text-align: center;
     background-color: white;
     height: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 8%;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+}
+.jedliklink {
+    display: flex;
+    align-items: center;   /* Vertically centers the text */
+    justify-content: center;
+    background-color: white;
+    height: 100px;
+    width: 1500px;
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 8%;
