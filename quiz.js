@@ -11,9 +11,13 @@ const questions = [
     { q: "Hány hónap van egy évben?", options: ["10", "12", "14", "16"], answer: 1 }
 ];
 
+let score = 0;
+let totalQuestions = questions.length;
+
 function loadQuiz() {
     const quizContainer = document.getElementById("quiz");
     quizContainer.innerHTML = "";
+    score = 0;
     
     questions.forEach((question, index) => {
         let questionElement = document.createElement("div");
@@ -38,11 +42,30 @@ function loadQuiz() {
 function checkAnswer(button, selected, correct) {
     if (selected === correct) {
         button.classList.add("correct");
+        score++;
     } else {
         button.classList.add("incorrect");
     }
     let buttons = button.parentNode.querySelectorAll("button");
     buttons.forEach(btn => btn.disabled = true);
+    if (allQuestionsAnswered()) {
+        showFinalScore();
+    }
+}
+
+function allQuestionsAnswered() {
+    return document.querySelectorAll(".options button:not([disabled])").length === 0;
+}
+
+function showFinalScore() {
+    const quizContainer = document.getElementById("quiz");
+    quizContainer.innerHTML = `<p>Végeredmény: ${score} / ${totalQuestions}</p>`;
+    
+    let restartButton = document.createElement("button");
+    restartButton.classList.add("restart");
+    restartButton.textContent = "Újrakezdés";
+    restartButton.onclick = loadQuiz;
+    quizContainer.appendChild(restartButton);
 }
 
 loadQuiz();
