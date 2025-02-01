@@ -32,3 +32,20 @@ body {
     background: #FF5733 !important;
     color: white;
 }
+
+.restart {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.restart:hover {
+    background-color: #0056b3;
+}
