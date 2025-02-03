@@ -1,5 +1,6 @@
 body {
     background-color: #87a2a6;
+    overflow-x: hidden;
 }
 #cim-div {
     font-size: 120px;
