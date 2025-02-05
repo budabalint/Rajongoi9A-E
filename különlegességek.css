@@ -15,14 +15,15 @@
 }
 .szovegdoboz {
     background-color: white;
-    min-height: 500px;
+    min-height: 200px;
     border-radius: 8%;
     box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
     padding: 10px;
     
     flex: 1 1 auto; /* Rugalmas méret */
     min-width: 300px; /* Minimum szélesség */
-    max-width: 500px; /* Maximum szélesség */
+    max-width: 450px; /* Maximum szélesség */
+    max-height: 450px;
     width: 100%; /* Töltse ki a helyet */
 }
 .szovegdoboz-container {
@@ -30,4 +31,13 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px; /* Mindig legyen minimum 20px távolság */
+}
+.padok {
+    font-size: 23px;
+    list-style-position: inside;
+}
+#szines {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    background-clip: text;
+    color: transparent;
 }
