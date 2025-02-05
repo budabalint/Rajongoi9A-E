@@ -1,0 +1,33 @@
+.cimek {
+    background-color: #00bcd4;
+    color: white;
+    padding: 20px 40px; 
+    display: block; 
+    width: fit-content;
+    margin: 20px auto;
+    font-size: 50px; 
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 2);
+    font-family: 'Arial', sans-serif;
+    color: black;
+}
+.szovegdoboz {
+    background-color: white;
+    min-height: 500px;
+    border-radius: 8%;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+    padding: 10px;
+    
+    flex: 1 1 auto; /* Rugalmas méret */
+    min-width: 300px; /* Minimum szélesség */
+    max-width: 500px; /* Maximum szélesség */
+    width: 100%; /* Töltse ki a helyet */
+}
+.szovegdoboz-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Mindig legyen minimum 20px távolság */
+}
