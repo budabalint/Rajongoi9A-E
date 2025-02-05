@@ -3,9 +3,9 @@ const questions = [
     { q: "Milyen képzésre nem tudsz jelentkezni az iskolában?", options: ["Gépész technikus", "Informatikai rendszer- és alkalmazás-üzemeltető technikus", "Szoftverfejlesztő és -tesztelő technikus", "Infokommunikációs hálózatépítő és -üzemeltető technikus szakma"], answer: 3 },
     { q: "Hol született jedlik Ányos?", options: ["Győr", "Szímő", "Kiskunfélegyháza", "Fertőrákos"], answer: 1 },
     { q: "Hány évet élt jedlik Ányos?", options: ["63", "72", "84", "95"], answer: 3 },
-    { q: "Kik a legjobbak??", options: ["Gépészek", "Infósok", "Mindkettő", "Egyik sem"], answer: 1 },
-    { q: "Melyik évben lett Magyarország EU-tag?", options: ["2000", "2004", "2010", "1995"], answer: 1 },
-    { q: "Hány óra van egy napban?", options: ["12", "24", "36", "48"], answer: 1 },
+    { q: "Kik a legjobbak?", options: ["Gépészek", "Infósok", "Mindkettő", "Egyik sem"], answer: 1 },
+    { q: "Melyik épületben található Konyha?", options: ["A Épület", "B Épület", "Mindkettő", "Egyik sem"], answer: 0 },
+    { q: "Mikor alkotta a szódavizet?", options: ["1824", "1825", "1826", "1827"], answer: 2 },
     { q: "Mi az emberi test legnagyobb szerve?", options: ["Szív", "Máj", "Bőr", "Tüdő"], answer: 2 },
     { q: "Milyen színű a tiszta víz?", options: ["Kék", "Átlátszó", "Zöld", "Fehér"], answer: 1 },
     { q: "Hány hónap van egy évben?", options: ["10", "12", "14", "16"], answer: 1 }
