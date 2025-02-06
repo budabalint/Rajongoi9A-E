@@ -41,3 +41,9 @@
     background-clip: text;
     color: transparent;
 }
+.szoveg {
+    font-size: 19px;
+}
+.csempe {
+    color: green;
+}
