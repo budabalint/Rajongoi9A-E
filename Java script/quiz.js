@@ -6,9 +6,9 @@ const questions = [
     { q: "Kik a legjobbak?", options: ["Gépészek", "Infósok", "Mindkettő", "Egyik sem"], answer: 1 },
     { q: "Melyik épületben található Konyha?", options: ["A Épület", "B Épület", "Mindkettő", "Egyik sem"], answer: 0 },
     { q: "Mikor alkotta a szódavizet?", options: ["1824", "1825", "1826", "1827"], answer: 2 },
-    { q: "Mi az emberi test legnagyobb szerve?", options: ["Szív", "Máj", "Bőr", "Tüdő"], answer: 2 },
-    { q: "Milyen színű a tiszta víz?", options: ["Kék", "Átlátszó", "Zöld", "Fehér"], answer: 1 },
-    { q: "Hány hónap van egy évben?", options: ["10", "12", "14", "16"], answer: 1 }
+    { q: "Hol készültek a zöld csempék?", options: ["Kalocsa", "Budapest", "Herend", "Zsolna"], answer: 3 },
+    { q: "?", options: ["Kék", "Átlátszó", "Zöld", "Fehér"], answer: 1 },
+    { q: "?", options: ["10", "12", "14", "16"], answer: 1 }
 ];
 
 let score = 0;
