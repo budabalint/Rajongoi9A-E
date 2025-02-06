@@ -47,3 +47,9 @@
 .csempe {
     color: green;
 }
+.memek {
+    min-width: 800px;
+    max-height: 80px;
+    min-height: 80px;
+    text-decoration: underline;
+}
