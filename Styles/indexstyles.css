@@ -48,7 +48,7 @@ body {
     box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
 }
 .cimek {
-    background-color: #00bcd4;
+    background-color: #A9A9A9;
     color: white;
     padding: 20px 40px; 
     display: block; 
@@ -78,7 +78,7 @@ body {
     border-radius: 15px 15px 0 0;
     margin: 0 auto;
     padding: 30px 30px 0 30px;
-    background-color: #3f43fd;
+    background-color: #A9A9A9;
     overflow: hidden;
 }
 .single_advisor_profile .advisor_thumb::after {
@@ -115,7 +115,7 @@ body {
 }
 .single_advisor_profile .advisor_thumb .social-info a:hover,
 .single_advisor_profile .advisor_thumb .social-info a:focus {
-    color: #3f43fd;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 .single_advisor_profile .advisor_thumb .social-info a:last-child {
     padding-right: 0;
@@ -137,7 +137,7 @@ body {
     z-index: 1;
     width: 50px;
     height: 3px;
-    background-color: #3f43fd;
+    background-color: #A9A9A9;
     content: "";
     top: 12px;
     right: 30px;
@@ -165,7 +165,8 @@ body {
 }
 .single_advisor_profile:hover .advisor_thumb::after,
 .single_advisor_profile:focus .advisor_thumb::after {
-    background-color: #070a57;
+    background-color: #A9A9A9;
+    color: #ffffff;
 }
 .single_advisor_profile:hover .advisor_thumb .social-info a,
 .single_advisor_profile:focus .advisor_thumb .social-info a {
@@ -179,7 +180,7 @@ body {
 }
 .single_advisor_profile:hover .single_advisor_details_info,
 .single_advisor_profile:focus .single_advisor_details_info {
-    background-color: #070a57;
+    background-color: #A9A9A9;
 }
 .single_advisor_profile:hover .single_advisor_details_info::after,
 .single_advisor_profile:focus .single_advisor_details_info::after {
@@ -192,4 +193,8 @@ body {
 .single_advisor_profile:hover .single_advisor_details_info p,
 .single_advisor_profile:focus .single_advisor_details_info p {
     color: #ffffff;
+}
+.single_advisor_profile .single_advisor_details_info h6,
+.single_advisor_profile .single_advisor_details_info h6 {
+    color: white; text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
